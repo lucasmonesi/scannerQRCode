@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Leitor de Código QR</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://unpkg.com/html5-qrcode/minified/html5-qrcode.min.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>Leitor de Código QR</h1>
+    <div id="reader" style="width: 300px; margin: 0 auto;"></div>
+    <div id="result-container">
+      <h3>Resultado:</h3>
+      <p id="result">Aguardando leitura...</p>
+    </div>
+    <button onclick="stopScanner()">Parar Scanner</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
